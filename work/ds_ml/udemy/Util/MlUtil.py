@@ -1,7 +1,7 @@
 import numpy as np
 
 # 損失関数計算
-def const_func(x, y, theta_0, theta_1):
+def cost_func(x, y, theta_0, theta_1):
     # 残差を計算
     se = np.square(y - (theta_0 + theta_1 * x))
 
