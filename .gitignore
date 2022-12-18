@@ -4,6 +4,6 @@ __pycache__/
 *$py.class
 .ipynb
 *data/
-
+*csv/
 
 
